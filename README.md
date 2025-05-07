@@ -40,3 +40,10 @@ Download the file [cjs-handler.js](/cjs-handler.js) and add it to the root of yo
     </body>
 </html>
 ```
+
+## Things CJS Does That Plain CSS Doesn't
+### 1. Inline Animations
+If you're only using an animation once, why bother naming it?
+```js
+// TODO: show real example
+```
