@@ -40,6 +40,3 @@ Download the file [cjs-handler.js](/cjs-handler.js) and add it to the root of yo
     </body>
 </html>
 ```
-
-## Documentation
-TODO: Add full documentation.
