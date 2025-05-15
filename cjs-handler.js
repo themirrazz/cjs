@@ -366,3 +366,4 @@ var RunStyle = function (handle) {
     };
     console.warn(`CJS Error: ${e.stack}\nFrom file "${kiddieScript.src}"\n\nThis stylesheet will be disabled`);
 });
+if(typeof module != 'undefined') { module.exports = RunStyle }
