@@ -122,7 +122,7 @@ var RunStyle = function (handle) {
         return window[this.__variableName__];
     }
     var JSBridge = function () {
-        return JSGlobalVariable('window').Get();
+        return window;
     };
     var vars = function (e, k) {
         return k ? `var(${e}, ${k})` : `var(${e})`;
