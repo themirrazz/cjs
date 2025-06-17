@@ -121,7 +121,12 @@ var RunStyle = function (handle) {
         }
         return window[this.__variableName__];
     }
-    var JSBridge = function () {
+    var JSBridge = function (opt) {
+        if(opt === '--document') return document;
+        if(opt === '--parent') return window.parent;
+        if(opt === '--top') return window.top;
+        if(opt === '--grandparent') return window.parent.parent;
+        if(opt === '--location') return location;
         return window;
     };
     var vars = function (e, k) {
